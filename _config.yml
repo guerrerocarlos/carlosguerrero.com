@@ -2,7 +2,7 @@ title:            CarlosGuerrero.com
 tagline:          Yet Another Software Developer 
 description:      Memory backup and third person resources
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://www2.carlosguerrero.com/
 
 # Owner/author information
 owner:
@@ -72,3 +72,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 flickr:
   api_key: 38e1ceb7386d28d98bb976ca8925d2f2 
+  cache_dir:       ./_cache/flickr
+  shared_secret:    0385542804267515 
+  access_token:     72157639452141185-93483cee7f16c14d
+  access_secret:    88d4b0e4af04a063 
