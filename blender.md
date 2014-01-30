@@ -8,4 +8,5 @@ image:
   feature: Liquidos_Cycles.jpg 
   credit: Carlos Guerrero
   creditlink: http://www.flickr.com/photos/guerrerocarlos/
+no_maps: true
 ---

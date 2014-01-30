@@ -36,6 +36,7 @@ module Jekyll
     def initialize(tag_name, markup, tokens)
       super
       params = Shellwords.shellwords markup
+
       @photo = { :id => params[0], :size => params[1] || "Medium", :sizes => {}, :title => "", :caption => "", :url => "", :exif => {} }
     end
 
@@ -93,6 +94,86 @@ module Jekyll
 
   end
 
+  class FlickrPhotoTagSrc < Liquid::Tag
+
+    @@cached = {} # Prevents multiple requests for the same photo
+
+    def retrieve_variable(context,idvariable)
+        if /\{\{([\w\-\.]+)\}\}/ =~ idvariable
+            raise ArgumentError.new("No variable #{$1} was found in include tag") if context[$1].nil?
+            @id = context[$1]
+        else
+            @id = idvariable
+        end
+    end     
+
+    def initialize(tag_name, markup, tokens)
+      super
+      @params = Shellwords.shellwords markup
+      @photo = { :id => @params[0], :size => @params[1] || "Medium", :sizes => {}, :title => "", :caption => "", :url => "", :exif => {} }
+      #@photo = { :id => params[0], :size => params[1] || "Medium", :sizes => {}, :title => "", :caption => "", :url => "", :exif => {} }
+    end
+
+    def render(context)
+        @api_key = context.registers[:site].config["flickr"]["api_key"]
+
+        retrieve_variable(context,@params[0])
+        @photo[:id] = @id
+
+        @photo.merge!(@@cached[photo_key] || get_photo)
+
+        selected_size = @photo[:sizes][@photo[:size]]
+        selected_size[:source]
+    end
+
+    def get_photo
+        hydra = Typhoeus::Hydra.new
+
+        urls_req = Typhoeus::Request.new("http://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=#{@api_key}&photo_id=#{@photo[:id]}")
+        urls_req.on_complete do |resp|
+            parsed = Nokogiri::XML(resp.body)
+            parsed.css("size").each do |el|
+                @photo[:sizes][el["label"]] = { 
+                    :width => el["width"], 
+                    :height => el["height"],
+                    :source => el["source"], 
+                    :url => el["url"]
+                }
+            end
+        end
+
+        info_req = Typhoeus::Request.new("http://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=#{@api_key}&photo_id=#{@photo[:id]}")
+        info_req.on_complete do |resp|
+            parsed = Nokogiri::XML(resp.body)
+            @photo[:title] = parsed.css("title").inner_text
+            @photo[:caption] = parsed.css("description").inner_text
+            @photo[:url] = parsed.css("urls url").inner_text
+        end
+
+        exif_req = Typhoeus::Request.new("http://api.flickr.com/services/rest/?method=flickr.photos.getExif&api_key=#{@api_key}&photo_id=#{@photo[:id]}")
+        exif_req.on_complete do |resp|
+            parsed = Nokogiri::XML(resp.body)
+            parsed.css("exif").each do |el|
+                @photo[:exif][el["label"]] = el.first_element_child.inner_text
+            end
+        end
+
+        hydra.queue(urls_req)
+        hydra.queue(info_req)
+        hydra.queue(exif_req)
+        hydra.run
+
+        @@cached[photo_key] = @photo
+    end
+
+    def photo_key
+        "#{@photo[:id]}"
+    end
+
+  end
+
+
 end
 
 Liquid::Template.register_tag('flickr_photo', Jekyll::FlickrPhotoTag)
+Liquid::Template.register_tag('flickr_photo_src', Jekyll::FlickrPhotoTagSrc)

@@ -2,7 +2,7 @@ title:            CarlosGuerrero.com
 tagline:          Yet Another Software Developer 
 description:      Memory backup and third person resources
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://www2.carlosguerrero.com/
+url:              http://www2.carlosguerrero.com
 
 # Owner/author information
 owner:
@@ -76,3 +76,12 @@ flickr:
   shared_secret:    0385542804267515 
   access_token:     72157639452141185-93483cee7f16c14d
   access_secret:    88d4b0e4af04a063 
+
+mapping:
+    provider: google_js 
+    #provider: google_static 
+    api_key: AIzaSyBr6PHKRf0poa5x2ulgeK81tfFKXR8cxg0 
+    zoom: 5
+    dimensions:
+        width: 614
+        height: 200

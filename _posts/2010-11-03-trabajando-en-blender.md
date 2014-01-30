@@ -7,6 +7,9 @@ categories:
   - Blender
 link_category:
   - Blogroll
+mapping:
+    latitude: 10.54 
+    longitude: -66.93
 ---
 <div>
   <dl id="attachment_10">

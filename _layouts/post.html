@@ -16,13 +16,21 @@
 {% if page.image.feature %}<div class="image-wrap">
   <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
 </div><!-- /.image-wrap -->{% endif %}
+{% if page.flickr_image.feature %}<div class="image-wrap" style="float:left;overflow:hidden;width:100%;">
+        <img src="{% flickr_photo_src {{page.flickr_image.feature}} "Large" %}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage" style="margin:{{page.flickr_image.top}} 0 {{page.flickr_image.bottom}} 0px;">
+</div><!-- /.image-wrap -->{% endif %}
+
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <div class="article-author-side">
+  <div class="article-author-side" style="margin-top:20px;">
     {% include _author-bio.html %}
   </div>
   <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
     <div class="headline-wrap">
+        {% for each in page.tags %}
+        <h4 style="margin-bottom:-1.325em;">
+        {{each}}:</h4>
+      {% endfor %}
       <h1 itemprop="name">{{ page.title }}</h1>
       <h2>{{ page.tagline }}</h2>
     </div><!--/ .headline-wrap -->
@@ -33,7 +41,7 @@
         <div class="article-author-bottom">
           {% include _author-bio.html %}
         </div>
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.</p>
+        <p class="byline"><strong>{{ page.title }}</strong>, <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   </article>

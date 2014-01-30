@@ -73,6 +73,17 @@ module Jekyll
             super
         end
 
+        def retrieve_variable(context)
+            for cat in @categories
+                if /\{\{([\w\-\.]+)\}\}/ =~ cat
+                    raise ArgumentError.new("No variable #{$1} was found in include tag") if context[$1].nil?
+                    @categ = context[$1]
+                else
+                    @categ = "" 
+                end
+            end
+        end
+
         def render(context)
             posts = []
             if @categories
@@ -80,23 +91,36 @@ module Jekyll
                     for post in context.registers[:site].categories[cat]
                         posts << post
                     end
+                    for post in context.registers[:site].tags[cat]
+                        posts << post
+                    end
+                end
+                retrieve_variable(context)
+                for post in context.registers[:site].categories[@categ]
+                    posts << post
+                end
+                for post in context.registers[:site].tags[@categ]
+                    posts << post
                 end
             else
                 posts = context.registers[:site].posts
             end
+            puts posts
             @data['pages'] = []
             for post in posts
-                if post.data['mapping'].has_key?('latitude') && post.data['mapping'].has_key?('longitude')
-                    postinfo = {}
-                    postinfo['title'] = post.data['title']
-                    if Jekyll.configuration({})['baseurl']
-                        postinfo['link'] = "#{Jekyll.configuration({})['baseurl']}#{post.url.chars.first == "/" ? post.url[1..-1] : post.url}"
-                    else
-                        postinfo['link'] = post.url
+                if post.data.has_key?('mapping')    
+                    if post.data['mapping'].has_key?('latitude') && post.data['mapping'].has_key?('longitude')
+                        postinfo = {}
+                        postinfo['title'] = post.data['title']
+                        if Jekyll.configuration({})['baseurl']
+                            postinfo['link'] = "#{Jekyll.configuration({})['baseurl']}#{post.url.chars.first == "/" ? post.url[1..-1] : post.url}"
+                        else
+                            postinfo['link'] = post.url
+                        end
+                        postinfo['latitude'] = post.data['mapping']['latitude']
+                        postinfo['longitude'] = post.data['mapping']['longitude']
+                        @data['pages'] << postinfo
                     end
-                    postinfo['latitude'] = post.data['mapping']['latitude']
-                    postinfo['longitude'] = post.data['mapping']['longitude']
-                    @data['pages'] << postinfo
                 end
             end
 

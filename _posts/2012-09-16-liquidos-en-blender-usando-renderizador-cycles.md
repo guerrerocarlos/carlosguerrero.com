@@ -6,6 +6,9 @@ permalink: /liquidos-en-blender-usando-renderizador-cycles/
 categories:
   - blender
   - linux
+mapping:
+    latitude: 10.491863 
+    longitude: -66.882019
 ---
 Deslumbrantes los resultados del nuevo motor de Render de [Blender][1], llamado &#8220;[Cycles][2]&#8221;
 

@@ -16,11 +16,8 @@
 {% if page.image.feature %}<div class="image-wrap">
   <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
 </div><!-- /.image-wrap -->{% endif %}
-{% if page.flickr_image.feature %}<div class="image-wrap" style="float:left;overflow:hidden;width:100%;">
-        <img src="{% flickr_photo_src {{page.flickr_image.feature}} "Large" %}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage" style="margin:{{page.flickr_image.top}} 0 {{page.flickr_image.bottom}} 0px;">
-</div><!-- /.image-wrap -->{% endif %}
 
-<div class="article-author-side" style="margin-top:20px;">
+<div class="article-author-side">
   {% include _author-bio.html %}
 </div>
 
@@ -28,10 +25,8 @@
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <h1 itemprop="name">{{ page.title }}</h1>
 
-  {% if page.no_maps %}
-  {% else %}
-  {% render_index_map :{{page.filtered_tag}} %}
-  {% endif %}
+
+  {% render_index_map :fotografia %}
 
   {% for post in site.posts %}  
           {% if post.tags contains page.filtered_tag or post.categories contains page.filtered_tag %}
