@@ -5,8 +5,4 @@ title: Fotografía
 tagline: Capturando luz 
 bullets: marker
 filtered_tag: fotografia 
-flickr_image:
-  feature: 9888157193 
-  top: -370px 
-  bottom: -220px 
 ---

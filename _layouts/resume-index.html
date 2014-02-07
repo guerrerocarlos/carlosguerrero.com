@@ -26,14 +26,22 @@
 
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <h1 itemprop="name">{{ page.title }}</h1>
+  <h1 itemprop="name">{{ page.title }}:</h1>
 
-  <h2 itemprop="profession">Trabajo</h1>
+  Un habitante más del planeta tierra, disfrutando su breve estadía con la esperanza de dejar las cosas un poco mejor que como estaban cuando llegó.
 
-  {% if page.no_maps %}
-  {% else %}
-  {% render_index_map :{{page.filtered_tag}} %}
-  {% endif %}
+  <h2>Proyectos personales:</h1>
+
+  {% for post in site.posts %}  
+          {% if post.tags contains 'proyectos' or post.categories contains 'proyectos' %}
+            <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"><img src="/images/{{page.bullets}}.png">  {{ post.title }}</a></h2>
+              <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+            </article>
+          {% endif %}
+  {% endfor %}
+
+  <h2>Experiencia en Desarrollo de Software:</h1>
 
   {% for post in site.posts %}  
           {% if post.tags contains page.filtered_tag or post.categories contains page.filtered_tag %}
@@ -43,6 +51,7 @@
             </article>
           {% endif %}
   {% endfor %}
+
 </div><!-- /#index -->
 
 <div class="footer-wrap">
