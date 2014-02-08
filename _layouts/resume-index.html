@@ -26,16 +26,22 @@
 
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <h1 itemprop="name">{{ page.title }}:</h1>
 
   Un habitante más del planeta tierra, disfrutando su breve estadía con la esperanza de dejar las cosas un poco mejor que como estaban cuando llegó.
 
   <h2>Proyectos personales:</h1>
 
   {% for post in site.posts %}  
-          {% if post.tags contains 'proyectos' or post.categories contains 'proyectos' %}
+          {% if post.tags contains 'proyecto' or post.categories contains 'proyecto' %}
             <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"><img src="/images/{{page.bullets}}.png">  {{ post.title }}</a></h2>
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                            {% if post.flickr_image.feature %}
+                    <div style="float:left;overflow:hidden;height:70px;margin-bottom:5px;width:100%;box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.15);">
+                            <img src="{% flickr_photo_src {{post.flickr_image.feature}} "Large" %}" style="margin:{{post.flickr_image.small_top}} 0 -350px 0px;"> 
+                    </div>
+                    {% endif %}
+                    </br>
+                            {{ post.title }}</a></h2>
               <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
             </article>
           {% endif %}
@@ -44,13 +50,56 @@
   <h2>Experiencia en Desarrollo de Software:</h1>
 
   {% for post in site.posts %}  
-          {% if post.tags contains page.filtered_tag or post.categories contains page.filtered_tag %}
+          {% if post.tags contains 'experiencia' or post.categories contains 'experiencia' %}
             <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"><img src="/images/{{page.bullets}}.png">  {{ post.title }}</a></h2>
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                    <div style="float:left;overflow:hidden;height:70px;margin-bottom:5px;width:100%;box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.15);">
+                            {% if post.flickr_image.small_feature %}<img src="{% flickr_photo_src {{post.flickr_image.small_feature}} "Large" %}" style="margin:{{post.flickr_image.small_top}} 0 -350px 0px;">{% endif %} 
+                    </div>
+                    </br>
+                            {{ post.title }}</a></h2>
               <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
             </article>
           {% endif %}
   {% endfor %}
+
+
+  <h2>Cursos dictados:</h1>
+
+  {% for post in site.posts %}  
+          {% if post.tags contains 'curso' or post.categories contains 'curso' %}
+            <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                    <div style="float:left;overflow:hidden;height:70px;margin-bottom:5px;width:100%;box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.15);">
+                            {% if post.flickr_image.small_feature %}<img src="{% flickr_photo_src {{post.flickr_image.small_feature}} "Large" %}" style="margin:{{post.flickr_image.small_top}} 0 -350px 0px;">{% endif %} 
+                    </div>
+                    </br>
+                            {{ post.title }}</a></h2>
+              <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+            </article>
+          {% endif %}
+  {% endfor %}
+
+
+  <h2>Medios audiovisuales:</h1>
+
+  {% for post in site.posts %}  
+          {% if post.tags contains 'multimedia' or post.categories contains 'multimedia' %}
+            <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                    <div style="float:left;overflow:hidden;height:70px;margin-bottom:5px;width:100%;box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.15);">
+                            {% if post.flickr_image.small_feature %}<img src="{% flickr_photo_src {{post.flickr_image.small_feature}} "Large" %}" style="margin:{{post.flickr_image.small_top}} 0 -350px 0px;">{% endif %} 
+                    </div>
+                    </br>
+                            {{ post.title }}</a></h2>
+              <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+            </article>
+          {% endif %}
+  {% endfor %}
+
+
+
+
 
 </div><!-- /#index -->
 

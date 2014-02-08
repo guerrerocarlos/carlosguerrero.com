@@ -28,20 +28,20 @@
   <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
     <div class="headline-wrap">
         {% for each in page.tags %}
-        <h4 style="margin-bottom:-1.325em;">
+        <div style="margin-bottom:-1.325em;">
+        <h4 style="">
         {{each}}:</h4>
+        </div>
       {% endfor %}
       <h1 itemprop="name">{{ page.title }}</h1>
       <h2>{{ page.tagline }}</h2>
     </div><!--/ .headline-wrap -->
     <div class="article-wrap" itemprop="text">
       {{ content }}
-      <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
           {% include _author-bio.html %}
         </div>
-        <p class="byline"><strong>{{ page.title }}</strong>, <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   </article>
@@ -63,7 +63,6 @@
       {% endif %}
     {% endfor %}
     </ul>
-    <hr />
   </div><!-- /.related-articles -->{% endif %}
   <footer>
     {% include _footer.html %}

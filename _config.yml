@@ -30,14 +30,10 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: EnResumen
-    url: /en-resumen/
-  - title: Cursos 
-    url: /cursos/
-  - title: Blender 
-    url: /blender/
   - title: fotografía 
     url: /fotografia/
+  - title: Blender 
+    url: /blender/
   - title: viajes 
     url: /viajes/
   - title: Artículos 
