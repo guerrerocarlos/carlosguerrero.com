@@ -1,0 +1,124 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="articles" itemscope itemtype="http://schema.org/WebPage">
+
+{% include _browser-upgrade.html %}
+
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          {% include _author-bio-en.html %}
+        </div>
+      </footer>
+
+{% include _navigation-en.html %}
+
+{% if page.image.feature %}<div class="image-wrap">
+  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
+</div><!-- /.image-wrap -->{% endif %}
+{% if page.flickr_image.feature %}<div class="image-wrap" style="float:left;overflow:hidden;width:100%;">
+        <img src="{% flickr_photo_src {{page.flickr_image.feature}} "Large" %}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage" style="margin:{{page.flickr_image.top}} 0 {{page.flickr_image.bottom}} 0px;">
+</div><!-- /.image-wrap -->{% endif %}
+
+<div class="article-author-side" style="margin-top:20px;">
+  {% include _author-bio-en.html %}
+</div>
+
+
+<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+
+  Yet another software developer, enjoying it's brief stay in this planet with the hope of leaving things a little better than they were when he arrived.
+
+  <h2>Personal Projects:</h1>
+
+  {% for post in site.posts %}  
+          {% if post.tags contains 'proyecto' or post.categories contains 'proyecto' %}
+            <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                            {% if post.flickr_image.feature %}
+                    <div style="float:left;overflow:hidden;height:70px;margin-bottom:5px;width:100%;box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.15);">
+                            <img src="{% flickr_photo_src {{post.flickr_image.feature}} "Large" %}" style="margin:{{post.flickr_image.small_top}} 0 -350px 0px;"> 
+                    </div>
+                    {% endif %}
+                    </br>
+                            {{ post.title }}</a></h2>
+              <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+            </article>
+          {% endif %}
+  {% endfor %}
+
+  <h2>Software Development Experience:</h1>
+
+  {% for post in site.posts %}  
+          {% if post.tags contains 'experiencia' or post.categories contains 'experiencia' %}
+            <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                    <div style="float:left;overflow:hidden;height:70px;margin-bottom:5px;width:100%;box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.15);">
+                            {% if post.flickr_image.small_feature %}<img src="{% flickr_photo_src {{post.flickr_image.small_feature}} "Large" %}" style="margin:{{post.flickr_image.small_top}} 0 -350px 0px;">{% endif %} 
+                    </div>
+                    </br>
+                            {{ post.title }}</a></h2>
+              <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+            </article>
+          {% endif %}
+  {% endfor %}
+
+
+  <h2>Dictated Courses:</h1>
+
+  {% for post in site.posts %}  
+          {% if post.tags contains 'curso' or post.categories contains 'curso' %}
+            <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                    <div style="float:left;overflow:hidden;height:70px;margin-bottom:5px;width:100%;box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.15);">
+                            {% if post.flickr_image.small_feature %}<img src="{% flickr_photo_src {{post.flickr_image.small_feature}} "Large" %}" style="margin:{{post.flickr_image.small_top}} 0 -350px 0px;">{% endif %} 
+                    </div>
+                    </br>
+                            {{ post.title }}</a></h2>
+              <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+            </article>
+          {% endif %}
+  {% endfor %}
+
+
+  <h2>Media Production:</h1>
+
+  {% for post in site.posts %}  
+          {% if post.tags contains 'multimedia' or post.categories contains 'multimedia' %}
+            <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">
+                    <div style="float:left;overflow:hidden;height:70px;margin-bottom:5px;width:100%;box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.15);">
+                            {% if post.flickr_image.small_feature %}<img src="{% flickr_photo_src {{post.flickr_image.small_feature}} "Large" %}" style="margin:{{post.flickr_image.small_top}} 0 -350px 0px;">{% endif %} 
+                    </div>
+                    </br>
+                            {{ post.title }}</a></h2>
+              <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+            </article>
+          {% endif %}
+  {% endfor %}
+
+
+
+
+
+</div><!-- /#index -->
+
+
+{% include _scripts.html %}
+ 
+<div class="footer-wrap">
+  <footer>
+    {% include _footer-en.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+
+ 
+</body>
+</html>
