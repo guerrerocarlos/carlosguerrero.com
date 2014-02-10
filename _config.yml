@@ -4,6 +4,7 @@ description:      Online Portfolio
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://www.carlosguerrero.com
 #url:              "." 
+#
 
 # Owner/author information
 owner:
