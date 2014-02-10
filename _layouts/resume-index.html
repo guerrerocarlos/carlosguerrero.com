@@ -11,6 +11,12 @@
 
 {% include _browser-upgrade.html %}
 
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          {% include _author-bio.html %}
+        </div>
+      </footer>
+
 {% include _navigation.html %}
 
 {% if page.image.feature %}<div class="image-wrap">
@@ -103,13 +109,16 @@
 
 </div><!-- /#index -->
 
+
+{% include _scripts.html %}
+ 
 <div class="footer-wrap">
   <footer>
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}
-  
+
+ 
 </body>
 </html>
