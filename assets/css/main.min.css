@@ -474,17 +474,17 @@ h6 {
 }
 a {
   text-decoration: none;
-  color: #343434;
+  color: #170a5a;
 }
 a:visited {
-  color: #676767;
+  color: #2e14b6;
 }
 a:hover {
-  color: #010101;
+  color: #000000;
 }
 a:focus {
   outline: thin dotted;
-  color: #010101;
+  color: #000000;
 }
 a:hover,
 a:active {
@@ -546,9 +546,10 @@ blockquote {
 }
 p {
   margin: 0 0 1.625rem;
+  padding-bottom: 14px;
 }
 p + p {
-  text-indent: 1.625rem;
+  text-indent: 0;
   margin-top: -1.625rem;
 }
 tt,
@@ -1894,6 +1895,7 @@ body {
 #index article p {
   font-size: 14px;
   font-size: 0.875rem;
+  padding-bottom: 14px;
 }
 #index article p + p {
   text-indent: 0;
@@ -1999,7 +2001,7 @@ body {
 }
 .article-wrap p > a,
 .article-wrap li > a {
-  border-bottom: 1px dotted #b3b3b3;
+  border-bottom: 1px dotted #8873f0;
 }
 .article-wrap p > a:hover,
 .article-wrap li > a:hover {
