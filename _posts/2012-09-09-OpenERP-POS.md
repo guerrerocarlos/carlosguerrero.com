@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: post-en
 title: OpenERP Point of Sale
 description: "OpenERP is usefull not only for getting companies organized, but also for using it as a selling machine"
 category: articles
-tags: [experiencia]
+tags: [experience]
 flickr_image:
   feature: 12356686963 
   small_feature: 12356686963 

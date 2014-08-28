@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: post-en
 title: Canaima GNU/Linux versión 2.1
 description: "Distribución Canaima GNU/Linux adaptada a la Administración Pública de Venezuela"
 category: articles
-tags: [experiencia]
+tags: [experiencie]
 flickr_image:
   feature: 12354507674 
   small_feature: 12354507674 

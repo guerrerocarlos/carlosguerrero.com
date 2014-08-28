@@ -3,7 +3,7 @@ layout: post
 title: Telecom Industry 
 description: "Brightcomms is a Telecom Contractor that develops software specially designed for 2G/3G/LTE tunning."
 category: articles
-tags: [experiencia]
+tags: [experience]
 flickr_image:
   feature: 12356495254 
   small_feature: 12356495254 
@@ -18,4 +18,4 @@ They have found that offering their own in-house software solutions, is a better
 
 With native (PyQT) and web (Django) interfaces, clients can see and filter the data they really need to know, and the rapid access to determinant pieces of information (KPIs) is usefull to other departments of the company, that take care of the performance of client's networks. 
 
-Taking charge of the IT and Development department of the company was a very challenging and interesting task to do, the learning was inmense. 
+[Taking charge of the IT and Development department](http://www.carlosguerrero.com/articles/IT/) of the company was a very challenging and interesting task to do, the learning was inmense. 

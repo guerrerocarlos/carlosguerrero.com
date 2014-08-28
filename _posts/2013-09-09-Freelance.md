@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: post-en
 title: Freelance Developer 
-description: "La robustez y rápida velocidad de desarrollo que presenta OpenERP, lo hace ideal para soluciones de gubernamentales en las que la fecha de entrega y la seguridad es determinante."
+description: "Telecommute as a lifestyle. Combining the best of schedule freedom with quality of work."
 category: articles
-tags: [experiencia]
+tags: [experience]
 flickr_image:
   small_feature: 12391461153 
   top: -10px
