@@ -3,6 +3,7 @@ tagline:          Yet Another Software Developer
 description:      Online Portfolio 
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://www.carlosguerrero.com
+url:              .
 #url:              "file:///Users/guerrerocarlos/Repositorios/carlosguerrero.com/_site/" 
 #
 
@@ -35,7 +36,7 @@ bing_verify:
 links:
   - title: fotografía 
     url: /fotografia/
-  - title: Blender 
+  - title: 3D
     url: /blender/
   - title: viajes 
     url: /viajes/
@@ -48,9 +49,9 @@ links:
 links_en:
   - title: photography 
     url: /fotografia/
-  - title: Blender 
+  - title: 3D
     url: /blender/
-  - title: travel 
+  - title: travel
     url: /travel/
   - title: articles 
     url: /articulos/
