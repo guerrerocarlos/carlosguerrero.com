@@ -1231,9 +1231,6 @@ article img {
   vertical-align: middle;
   -ms-interpolation-mode: bicubic;
 }
-img {
-    max-width: 530px;
-}
 svg:not(:root) {
   overflow: hidden;
 }

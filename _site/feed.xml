@@ -3,26 +3,26 @@
 <title type="text">CarlosGuerrero.com</title>
 <subtitle type="text">Yet Another Software Developer</subtitle>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://www.carlosguerrero.com//feed.xml" />
-<link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/" />
-<updated>2014-08-29T15:43:43-04:00</updated>
-<id>http://www.carlosguerrero.com//</id>
+<link rel="self" type="application/atom+xml" href="http://www.carlosguerrero.com/feed.xml" />
+<link rel="alternate" type="text/html" href="http://www.carlosguerrero.com" />
+<updated>2014-08-29T15:59:07-04:00</updated>
+<id>http://www.carlosguerrero.com/</id>
 <author>
   <name>Carlos Guerrero</name>
-  <uri>http://www.carlosguerrero.com//</uri>
+  <uri>http://www.carlosguerrero.com/</uri>
   <email>carlos@carlosguerrero.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[TorrenTV]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/TorrenTV" />
-  <id>http://www.carlosguerrero.com//articles/TorrenTV</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/TorrenTV" />
+  <id>http://www.carlosguerrero.com/articles/TorrenTV</id>
   <published>2014-08-29T00:00:00-04:00</published>
   <updated>2014-08-29T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Learning the technologies to develop &lt;strong&gt;&lt;a href=&quot;http://torrentv.github.io/&quot;&gt;TorrenTV&lt;/a&gt;&lt;/strong&gt;, (&lt;a href=&quot;https://github.com/rogerwang/node-webkit&quot;&gt;node-webkit&lt;/a&gt;, &lt;a href=&quot;https://github.com/mafintosh/torrent-stream&quot;&gt;torrent-stream&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.org/package/peerflix&quot;&gt;peerflix&lt;/a&gt;, etc) took exactly 72 hours, 10 min spreaded in one week. The following week, the first beta version was released.&lt;/p&gt;
@@ -122,19 +122,19 @@
 
 &lt;p&gt;The most &lt;a href=&quot;https://github.com/TorrenTV/TorrenTV/issues/14&quot;&gt;requested feature that is still pending is &lt;strong&gt;&lt;em&gt;Subtitles&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;, but because of Airplay limitations adding them would require fusing them the movie before streaming it, wich would at the same time add compatibility for more movie formats (another much requested feature) and including &lt;strong&gt;&lt;em&gt;ffmpeg&lt;/em&gt;&lt;/strong&gt; inside TorrenTV (node-webkit) hasn’t yet been done. So will be matter of wait and see, more investigation and learning is to be done :) the journey continues.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/TorrenTV&quot;&gt;TorrenTV&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 29, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/TorrenTV&quot;&gt;TorrenTV&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 29, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Halloween]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/Halloween-SC" />
-  <id>http://www.carlosguerrero.com//articles/Halloween-SC</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/Halloween-SC" />
+  <id>http://www.carlosguerrero.com/articles/Halloween-SC</id>
   <published>2013-10-27T00:00:00-04:00</published>
   <updated>2013-10-27T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;div id=&quot;jekyll-mapping&quot; style=&quot;height:200px;width:614px;&quot;&gt;&lt;/div&gt;
@@ -159,19 +159,19 @@
 &lt;a class=&quot;th&quot; href=&quot;http://farm4.staticflickr.com/3782/10567198996_233324e8b8_b.jpg&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3782/10567198996_233324e8b8_q.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/Halloween-SC&quot;&gt;Halloween&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on October 27, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/Halloween-SC&quot;&gt;Halloween&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on October 27, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Festival SC]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/Festival-SC-2013" />
-  <id>http://www.carlosguerrero.com//articles/Festival-SC-2013</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/Festival-SC-2013" />
+  <id>http://www.carlosguerrero.com/articles/Festival-SC-2013</id>
   <published>2013-10-20T00:00:00-04:00</published>
   <updated>2013-10-20T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;div id=&quot;jekyll-mapping&quot; style=&quot;height:200px;width:614px;&quot;&gt;&lt;/div&gt;
@@ -236,19 +236,19 @@
 
 &lt;p&gt;Album en flickr: &lt;a href=&quot;http://www.flickr.com/photos/guerrerocarlos/sets/72157635783833513/&quot;&gt;FestivalSC.com en Flickr (guerrerocarlos)&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/Festival-SC-2013&quot;&gt;Festival SC&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on October 20, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/Festival-SC-2013&quot;&gt;Festival SC&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on October 20, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Freelance Developer]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/Freelance" />
-  <id>http://www.carlosguerrero.com//articles/Freelance</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/Freelance" />
+  <id>http://www.carlosguerrero.com/articles/Freelance</id>
   <published>2013-09-09T00:00:00-04:00</published>
   <updated>2013-09-09T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Although it requires more discipline, telecommuting has become the best fit between freedom of time and quality of work. Allowing me to work on the hours that better fit my day.&lt;/p&gt;
@@ -259,19 +259,19 @@
 
 &lt;p&gt;My profile: &lt;a href=&quot;https://www.odesk.com/users/~01987d93bf103e1522&quot;&gt;Carlos Guerrero on Odesk&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/Freelance&quot;&gt;Freelance Developer&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on September 09, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/Freelance&quot;&gt;Freelance Developer&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on September 09, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Blender]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//courses/Blender" />
-  <id>http://www.carlosguerrero.com//courses/Blender</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/courses/Blender" />
+  <id>http://www.carlosguerrero.com/courses/Blender</id>
   <published>2013-08-09T00:00:00-04:00</published>
   <updated>2013-08-09T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;a href=&quot;http://blender.org/&quot;&gt;Blender&lt;/a&gt; es el mejor software libre de diseño y animación 3D. En mi humilde opinión es “una obra de arte para hacer obras de arte”&lt;/p&gt;
@@ -309,19 +309,19 @@
 
 &lt;p&gt;&lt;em&gt;Duración: 40 horas académicas.&lt;/em&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//courses/Blender&quot;&gt;Blender&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 09, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/courses/Blender&quot;&gt;Blender&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 09, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[OpenERP for Goverment]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/Covetel" />
-  <id>http://www.carlosguerrero.com//articles/Covetel</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/Covetel" />
+  <id>http://www.carlosguerrero.com/articles/Covetel</id>
   <published>2013-08-08T00:00:00-04:00</published>
   <updated>2013-08-08T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;a href=&quot;http://openerp.com&quot;&gt;OpenERP&lt;/a&gt; is based on a project called &lt;a href=&quot;https://launchpad.net/openobject&quot;&gt;OpenObject&lt;/a&gt; that allows web applications design focusing on modeling, no major concerns about database structure (thanks to its embeded ORM) and minimum requirements in the design of the GUI. The focus becomes the key business and optimizing resources through this tool.&lt;/p&gt;
@@ -331,19 +331,19 @@
 &lt;p&gt;The adaptations required and support is provided by &lt;a href=&quot;http://www.covetel.com.ve/&quot;&gt;Covetel&lt;/a&gt; as leader in Venezuela for consulting services and free software development, always accompanied by training and technology transference.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/Covetel&quot;&gt;OpenERP for Goverment&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 08, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/Covetel&quot;&gt;OpenERP for Goverment&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 08, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Python]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//courses/Python" />
-  <id>http://www.carlosguerrero.com//courses/Python</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/courses/Python" />
+  <id>http://www.carlosguerrero.com/courses/Python</id>
   <published>2013-08-06T00:00:00-04:00</published>
   <updated>2013-08-06T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;h2 id=&quot;curso-introductorio-a-python&quot;&gt;Curso introductorio a Python&lt;/h2&gt;
@@ -390,19 +390,19 @@
 
 &lt;p&gt;&lt;strong&gt;Más información por: &lt;em&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#111;&amp;#110;&amp;#116;&amp;#097;&amp;#099;&amp;#116;&amp;#111;&amp;#064;&amp;#099;&amp;#097;&amp;#114;&amp;#108;&amp;#111;&amp;#115;&amp;#103;&amp;#117;&amp;#101;&amp;#114;&amp;#114;&amp;#101;&amp;#114;&amp;#111;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;carlos@carlosguerrero.com&lt;/a&gt;&lt;/em&gt; para consultar disponibilidad y costos.&lt;/strong&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//courses/Python&quot;&gt;Python&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 06, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/courses/Python&quot;&gt;Python&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 06, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[ProxyDNS]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/ProxyDNS" />
-  <id>http://www.carlosguerrero.com//articles/ProxyDNS</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/ProxyDNS" />
+  <id>http://www.carlosguerrero.com/articles/ProxyDNS</id>
   <published>2013-07-07T00:00:00-04:00</published>
   <updated>2013-07-07T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://proxydns.co/&quot;&gt;ProxyDNS&lt;/a&gt;&lt;/strong&gt;, is a DNS service that removes geographically based blocks from services like &lt;a href=&quot;http://pandora.com/&quot;&gt;Pandora&lt;/a&gt;, &lt;a href=&quot;http://spotify.com/&quot;&gt;Spotify&lt;/a&gt;, &lt;a href=&quot;http://hulu.com/&quot;&gt;Hulu+&lt;/a&gt;, &lt;a href=&quot;http://netflix.com/&quot;&gt;Netflix&lt;/a&gt;, etc.&lt;/p&gt;
@@ -413,19 +413,19 @@
 
 &lt;p&gt;For more information, visit: &lt;strong&gt;&lt;a href=&quot;http://proxydns.co/&quot;&gt;ProxyDNS.co&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/ProxyDNS&quot;&gt;ProxyDNS&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on July 07, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/ProxyDNS&quot;&gt;ProxyDNS&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on July 07, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/readability-feature-post" />
-  <id>http://www.carlosguerrero.com//articles/readability-feature-post</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/readability-feature-post" />
+  <id>http://www.carlosguerrero.com/articles/readability-feature-post</id>
   <published>2013-05-23T00:00:00-04:00</published>
   <updated>2013-05-23T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;This is a sample post with a large feature image&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
@@ -477,19 +477,19 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/readability-feature-post&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/readability-feature-post&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Paypal con Python]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//paypal-con-python/" />
-  <id>http://www.carlosguerrero.com//paypal-con-python</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/paypal-con-python/" />
+  <id>http://www.carlosguerrero.com/paypal-con-python</id>
   <published>2012-11-09T00:00:00-05:00</published>
   <updated>2012-11-09T00:00:00-05:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Después de pasar muchos días e incluso semanas tratando de descifrar como hacer funcionar el pago con Paypal en sitios hechos con Python (Django en mi caso) examinando el código de repositorios como &lt;a href=&quot;https://github.com/johnboxall/django-paypal&quot;&gt;django-paypal&lt;/a&gt; sin ningún éxito.&lt;/p&gt;
@@ -527,19 +527,19 @@ if success:
 &lt;p&gt; &lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//paypal-con-python/&quot;&gt;Paypal con Python&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on November 09, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/paypal-con-python/&quot;&gt;Paypal con Python&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on November 09, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Costa Rica]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/Costa-Rica" />
-  <id>http://www.carlosguerrero.com//articles/Costa-Rica</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/Costa-Rica" />
+  <id>http://www.carlosguerrero.com/articles/Costa-Rica</id>
   <published>2012-10-10T00:00:00-04:00</published>
   <updated>2012-10-10T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;div id=&quot;jekyll-mapping&quot; style=&quot;height:200px;width:614px;&quot;&gt;&lt;/div&gt;
@@ -583,19 +583,19 @@ if success:
 &lt;a class=&quot;th&quot; href=&quot;http://farm4.staticflickr.com/3672/11814269806_fe9245f4e4_b.jpg&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3672/11814269806_fe9245f4e4_q.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/Costa-Rica&quot;&gt;Costa Rica&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on October 10, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/Costa-Rica&quot;&gt;Costa Rica&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on October 10, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Liquidos en Blender usando Renderizador Cycles]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//liquidos-en-blender-usando-renderizador-cycles/" />
-  <id>http://www.carlosguerrero.com//liquidos-en-blender-usando-renderizador-cycles</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/liquidos-en-blender-usando-renderizador-cycles/" />
+  <id>http://www.carlosguerrero.com/liquidos-en-blender-usando-renderizador-cycles</id>
   <published>2012-09-16T00:00:00-04:00</published>
   <updated>2012-09-16T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Deslumbrantes los resultados del nuevo motor de Render de &lt;a href=&quot;http://blender.org/&quot;&gt;Blender&lt;/a&gt;, llamado “&lt;a href=&quot;http://wiki.blender.org/index.php/Doc:ES/2.6/Manual/Render/Cycles&quot;&gt;Cycles&lt;/a&gt;”&lt;/p&gt;
@@ -608,19 +608,19 @@ if success:
 &lt;p&gt;&lt;a href=&quot;http://blog.carlosguerrero.com/wp-content/uploads/2012/09/Captura-de-pantalla-2012-09-15-a-las-21.16.34.png&quot;&gt;&lt;img src=&quot;http://blog.carlosguerrero.com/wp-content/uploads/2012/09/Captura-de-pantalla-2012-09-15-a-las-21.16.34-300x161.png&quot; alt=&quot;&quot; title=&quot;Así se ve Blender 2.6&quot; width=&quot;300&quot; height=&quot;161&quot; class=&quot;aligncenter size-medium wp-image-517&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//liquidos-en-blender-usando-renderizador-cycles/&quot;&gt;Liquidos en Blender usando Renderizador Cycles&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on September 16, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/liquidos-en-blender-usando-renderizador-cycles/&quot;&gt;Liquidos en Blender usando Renderizador Cycles&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on September 16, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[OpenERP Point of Sale]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/OpenERP-POS" />
-  <id>http://www.carlosguerrero.com//articles/OpenERP-POS</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/OpenERP-POS" />
+  <id>http://www.carlosguerrero.com/articles/OpenERP-POS</id>
   <published>2012-09-09T00:00:00-04:00</published>
   <updated>2012-09-09T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;With an initial setup of two stores (that later grew to 6) and after adapting it to local regulations (auditory tape printed daily, etc), OpenERP performed greatly after modifying some core modules, for it to work with many selling stores directly from one central instance.  &lt;/p&gt;
@@ -632,19 +632,19 @@ if success:
 &lt;p&gt;This is how the led-Display looks working with OpenERP POS:
 &lt;a class=&quot;thumbnail&quot; href=&quot;https://www.flickr.com/photos/62767396@N04/12356358963/&quot;&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2846/12356358963_a6ce8d4f2d.jpg&quot; title=&quot;OpenERP-POS-ledDisplay&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/OpenERP-POS&quot;&gt;OpenERP Point of Sale&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on September 09, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/OpenERP-POS&quot;&gt;OpenERP Point of Sale&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on September 09, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[La mejor manera de pasar un video de FLV a MP4 (y sin pérdida)]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//la-mejor-manera-de-pasar-un-video-de-flv-a-mp4/" />
-  <id>http://www.carlosguerrero.com//la-mejor-manera-de-pasar-un-video-de-flv-a-mp4</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/la-mejor-manera-de-pasar-un-video-de-flv-a-mp4/" />
+  <id>http://www.carlosguerrero.com/la-mejor-manera-de-pasar-un-video-de-flv-a-mp4</id>
   <published>2012-09-06T00:00:00-04:00</published>
   <updated>2012-09-06T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Normalmente cuando se pasa de un formato a otro con un programa tan popular como como &lt;a href=&quot;http://ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt;, se utilizan valores que vienen con el programa por defecto que obligan renderizar de nuevo el audio y el stream del vídeo, en una nueva calidad y resolución para poder obtener el video en el formato nuevo (.mp4) tardando muchos minutos en este proceso.&lt;/p&gt;
@@ -666,19 +666,19 @@ if success:
 &lt;/blockquote&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//la-mejor-manera-de-pasar-un-video-de-flv-a-mp4/&quot;&gt;La mejor manera de pasar un video de FLV a MP4 (y sin pérdida)&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on September 06, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/la-mejor-manera-de-pasar-un-video-de-flv-a-mp4/&quot;&gt;La mejor manera de pasar un video de FLV a MP4 (y sin pérdida)&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on September 06, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[[Descargar] TextMate2 (ahora es GPL3)]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//descargartextmate2-ahora-es-gpl3/" />
-  <id>http://www.carlosguerrero.com//descargartextmate2-ahora-es-gpl3</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/descargartextmate2-ahora-es-gpl3/" />
+  <id>http://www.carlosguerrero.com/descargartextmate2-ahora-es-gpl3</id>
   <published>2012-08-12T00:00:00-04:00</published>
   <updated>2012-08-12T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Celebrando que TextMate, uno de los mejores editores para MacOSX pasó a ser software libre (GPL3) me tomo el placer de compilarlo y distribuirlo listo para usar:&lt;/p&gt;
@@ -693,19 +693,19 @@ if success:
 Código Fuente del TextMate 2: &lt;a href=&quot;https://github.com/textmate/textmate&quot;&gt;https://github.com/textmate/textmate&lt;/a&gt;&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//descargartextmate2-ahora-es-gpl3/&quot;&gt;[Descargar] TextMate2 (ahora es GPL3)&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 12, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/descargartextmate2-ahora-es-gpl3/&quot;&gt;[Descargar] TextMate2 (ahora es GPL3)&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 12, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[IT Department Leader]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//articles/IT" />
-  <id>http://www.carlosguerrero.com//articles/IT</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/articles/IT" />
+  <id>http://www.carlosguerrero.com/articles/IT</id>
   <published>2012-08-08T00:00:00-04:00</published>
   <updated>2012-08-08T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;After starting remotelly with a Django App that was able to get into privative Sybase databases and take all the important 2G/3G/LTE information, replicate it on Postgres and then create online/email reports and interactive graphs (KPIs) plus allowing RF specialists and Engineers to manage their own SQL queries, the company CEO at &lt;a href=&quot;http://brightcomms.com/&quot;&gt;Brightcomms&lt;/a&gt; asigned me to be in charge of all the IT needs of the company, and travel to the different sites that required attention.&lt;/p&gt;
@@ -714,19 +714,19 @@ Código Fuente del TextMate 2: &lt;a href=&quot;https://github.com/textmate/text
 
 &lt;p&gt;Another remarkable implementation, was the use of Torrents to allow unprecedented network speeds in the transfer of big chunks of information (&amp;gt;5GB/each), resulting for activities (drive-tests) performed by the company in different location but all analyzed and processed in one facility every day, activity that was previously performed using FTP. Torrents allowed a &amp;gt;50% improvement.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//articles/IT&quot;&gt;IT Department Leader&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 08, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/articles/IT&quot;&gt;IT Department Leader&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 08, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[HTML: &#8220;Copiar al portapapeles&#8221; (Ctrl+C)]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//html-copiar-al-portapapeles/" />
-  <id>http://www.carlosguerrero.com//html-copiar-al-portapapeles</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/html-copiar-al-portapapeles/" />
+  <id>http://www.carlosguerrero.com/html-copiar-al-portapapeles</id>
   <published>2012-08-02T00:00:00-04:00</published>
   <updated>2012-08-02T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;a href=&quot;http://haxe.org/&quot;&gt;&lt;br /&gt;
@@ -749,19 +749,19 @@ que es el mismo que usan en github.com ya que fue de hecho, creado por uno de su
 &lt;p&gt;Al descargar el código, se puede copiar directamente el archivo &lt;strong&gt;clippy.swf&lt;/strong&gt; a su carpeta pública y solo faltaría incluir el siguiente objeto HTML en el lugar donde quieras que vaya el botón, además de reemplazar la etiqueta {text} por el texto que quieres que se copie a la portapapeles al presionar el botón, y {bgcolor} por el color de fondo que quieres que tenga el botón.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//html-copiar-al-portapapeles/&quot;&gt;HTML: &#8220;Copiar al portapapeles&#8221; (Ctrl+C)&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 02, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/html-copiar-al-portapapeles/&quot;&gt;HTML: &#8220;Copiar al portapapeles&#8221; (Ctrl+C)&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on August 02, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Receta: Habilitar php en NGINX]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//receta-habilitar-php-en-nginx/" />
-  <id>http://www.carlosguerrero.com//receta-habilitar-php-en-nginx</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/receta-habilitar-php-en-nginx/" />
+  <id>http://www.carlosguerrero.com/receta-habilitar-php-en-nginx</id>
   <published>2012-07-30T00:00:00-04:00</published>
   <updated>2012-07-30T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Luego de instalar nginx:&lt;/p&gt;
@@ -825,19 +825,19 @@ include fastcgi_params;&lt;br /&gt;
 
 &lt;p&gt;Si al entrar al sitio por el navegador, ves el contendio de Php Info, estas listo &lt;img src=&quot;http://blog.carlosguerrero.com/wp-includes/images/smilies/icon_smile.gif&quot; alt=&quot;:)&quot; class=&quot;wp-smiley&quot; /&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//receta-habilitar-php-en-nginx/&quot;&gt;Receta: Habilitar php en NGINX&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on July 30, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/receta-habilitar-php-en-nginx/&quot;&gt;Receta: Habilitar php en NGINX&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on July 30, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Script init.d para control de instancias Django]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//script-init-d-para-control-de-instancias-django/" />
-  <id>http://www.carlosguerrero.com//script-init-d-para-control-de-instancias-django</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/script-init-d-para-control-de-instancias-django/" />
+  <id>http://www.carlosguerrero.com/script-init-d-para-control-de-instancias-django</id>
   <published>2012-07-28T00:00:00-04:00</published>
   <updated>2012-07-28T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Si necesitas correr muchas aplicaciones basadas en &lt;a href=&quot;http://djangoproject.com/&quot;&gt;Django&lt;/a&gt; en un mismo servidor y estas cansado de abrir un &lt;a href=&quot;http://es.wikipedia.org/wiki/GNU_Screen&quot;&gt;screen&lt;/a&gt; o un &lt;a href=&quot;http://tmux.sourceforge.net/&quot;&gt;tmux&lt;/a&gt; para cada instancia, entonces esto es lo que necesitas, un script init.d que automaticamente inicie, detenga o reinicie todas las instancias Django que tengas en una carpeta determinada:&lt;/p&gt;
@@ -872,19 +872,19 @@ include fastcgi_params;&lt;br /&gt;
 &lt;p&gt;Teniendo eso ya solo tendrías que configurar NGINX para que sirva apropiadamente cada una de las aplicaciones para su acceso web, usando los puertos del 8080 en adelante, pero para eso tienes también esta guía: &lt;a href=&quot;http://blog.carlosguerrero.com/entrada-nginx-para-django-fastcgi/&quot;&gt;Configuración NGINX para Django&lt;/a&gt;&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//script-init-d-para-control-de-instancias-django/&quot;&gt;Script init.d para control de instancias Django&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on July 28, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/script-init-d-para-control-de-instancias-django/&quot;&gt;Script init.d para control de instancias Django&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on July 28, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Restricciones de acceso en NGINX]]></title>
-  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com//restricciones-de-acceso-en-nginx/" />
-  <id>http://www.carlosguerrero.com//restricciones-de-acceso-en-nginx</id>
+  <link rel="alternate" type="text/html" href="http://www.carlosguerrero.com/restricciones-de-acceso-en-nginx/" />
+  <id>http://www.carlosguerrero.com/restricciones-de-acceso-en-nginx</id>
   <published>2012-07-28T00:00:00-04:00</published>
   <updated>2012-07-28T00:00:00-04:00</updated>
   <author>
     <name>Carlos Guerrero</name>
-    <uri>http://www.carlosguerrero.com/</uri>
+    <uri>http://www.carlosguerrero.com</uri>
     <email>carlos@carlosguerrero.com</email>
   </author>
   <content type="html">&lt;p&gt;Para restringir el acceso a cualquier sitio en nginx, basta con agregar las siguientes lineas a cualquier servidor “nginx”:&lt;/p&gt;
@@ -920,7 +920,7 @@ andres:saUbI5w9Auf32&lt;/p&gt;
 
 &lt;p&gt;Así que queda a elección de lo que te sea mas practico/útil.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com//restricciones-de-acceso-en-nginx/&quot;&gt;Restricciones de acceso en NGINX&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com/&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on July 28, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.carlosguerrero.com/restricciones-de-acceso-en-nginx/&quot;&gt;Restricciones de acceso en NGINX&lt;/a&gt; was originally published by Carlos Guerrero at &lt;a href=&quot;http://www.carlosguerrero.com&quot;&gt;CarlosGuerrero.com&lt;/a&gt; on July 28, 2012.&lt;/p&gt;</content>
 </entry>
 
 </feed>
