@@ -19,13 +19,6 @@
 
 {% include _navigation.html %}
 
-{% if page.image.feature %}<div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-</div><!-- /.image-wrap -->{% endif %}
-{% if page.flickr_image.feature %}<div class="image-wrap" style="float:left;overflow:hidden;width:100%;">
-        <img src="{% flickr_photo_src {{page.flickr_image.feature}} "Large" %}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage" style="margin:{{page.flickr_image.top}} 0 {{page.flickr_image.bottom}} 0px;">
-</div><!-- /.image-wrap -->{% endif %}
-
 <div class="article-author-side" style="margin-top:20px;">
   {% include _author-bio.html %}
 </div>

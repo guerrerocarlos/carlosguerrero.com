@@ -141,7 +141,7 @@ module Jekyll
         @photo.merge!(@@cached[photo_key] || get_photo)
 
         selected_size = @photo[:sizes][@photo[:size]]
-        "#{@photo[:url]}"
+        "\"#{@photo[:url]}\""
     end
 
     def get_photo

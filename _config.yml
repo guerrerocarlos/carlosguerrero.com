@@ -2,8 +2,7 @@ title:            CarlosGuerrero.com
 tagline:          Yet Another Software Developer 
 description:      Online Portfolio 
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://www.carlosguerrero.com
-url:              .
+url:              "http://www.carlosguerrero.com/"
 #url:              "file:///Users/guerrerocarlos/Repositorios/carlosguerrero.com/_site/" 
 #
 
@@ -11,8 +10,8 @@ url:              .
 owner:
   name:           Carlos Guerrero 
   avatar:         bio-photo.jpg
-  bio:            "Desarrollador de Software (Android, Python, Django, Blender, GNU/Linux, MacOSX) lanzando <a href='http://proxydns.co'>ProxyDNS</a>, interesado en el <b>diseño</b> y la <b>fotografía</b>."
-  bio_en:            "Software Developer (Android, Python, Django, Blender, GNU/Linux, MacOSX) launching <a href='http://proxydns.co'>ProxyDNS</a>, interested on <b>design</b> and <b>photography</b>."
+  bio:            "Desarrollador de Software interesado en el <b>diseño</b> y la <b>fotografía</b>."
+  bio_en:            "Software Developer interested in <b>design</b> and <b>photography</b>."
   email:          carlos@carlosguerrero.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:       guerrerocarlos 
@@ -35,7 +34,8 @@ bing_verify:
 # For external links add external: true
 links:
   - title: fotografía 
-    url: /fotografia/
+    url: https://www.flickr.com/photos/guerrerocarlos/sets/
+    external: true
   - title: 3D
     url: /blender/
   - title: viajes 
@@ -48,7 +48,8 @@ links:
 
 links_en:
   - title: photography 
-    url: /fotografia/
+    url: https://www.flickr.com/photos/guerrerocarlos/sets/
+    external: true
   - title: 3D
     url: /blender/
   - title: travel
