@@ -1,9 +1,13 @@
 ---
 layout: post-en
-title: Lollypop (Android 5.0.1) ROM for Samsung S4 
-description: "How to install Android 5.0.1 on Samsung S4”
+title: Lollypop ROM for Samsung S4 
+description: "How to install Android 5.0.1 on Samsung S4.”
 category: articles
 tags: [project]
+flickr_image:
+  feature: 14888997637 
+  top: -20px
+  small_top: -18px
 ---
 
 ## How to manually install Android 5.0.1 (Lollypop) on Samsung Galaxy S4
