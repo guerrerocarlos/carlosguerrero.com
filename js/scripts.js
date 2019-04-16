@@ -30,7 +30,7 @@ window.onload = function() {
     'Hey there 👋',
     'I\'m Carlos',
     'I code 💻 things on the web',
-    'I\'m currently focused on web performance technologies.<br> You can contact me at <a href="mailto:hello@carlosguerrero.com">hello@carlosguerrero.com</a>',
+    'I\'m currently focused on web performance and video codecs.<br> You can contact me at <a href="mailto:hello@carlosguerrero.com">hello@carlosguerrero.com</a>',
     '<a target="_blank" href="https://twitter.com/guerrerocarlos"></i>twitter.com/guerrerocarlos</a><br><a target="_blank" href="https://github.com/guerrerocarlos">github.com/guerrerocarlos</a>',
     getCurrentTime(),
   ]
