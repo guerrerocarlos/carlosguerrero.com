@@ -27,7 +27,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /icon.png
 
     footer:
         since: 2020
@@ -43,7 +43,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: /carlos.jpg
 
     article:
         math: false
