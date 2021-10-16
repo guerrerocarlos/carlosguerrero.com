@@ -42,8 +42,8 @@ params:
         subtitle: Happy developer!.
         avatar:
             enabled: true
-            local: true
-            src: static/carlos.png
+            local: false
+            src: https://github.com/guerrerocarlos.png
 
     article:
         math: false
