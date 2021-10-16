@@ -2,13 +2,13 @@ baseurl: https://carlosguerrero.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: CarlosGuerrero.com
+title: Carlos Guerrero
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: carlosguerrero-com
 
 # GA Tracking ID
-googleAnalytics:
+googleAnalytics: G-LK00BQTYDH
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it
@@ -30,7 +30,7 @@ params:
     favicon: icon.png
 
     footer:
-        since: 2020
+        since: 2021
         customText:
 
     dateFormat:
@@ -39,7 +39,7 @@ params:
 
     sidebar:
         emoji: 💻
-        subtitle: Happy developer!.
+        subtitle: Happy developer!
         avatar:
             enabled: true
             local: false
@@ -141,7 +141,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: guerrerocarlos
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -177,7 +177,7 @@ menu:
           pre: home
           params:
               ### For demonstration purpose, the home link will be open in a new tab
-              newTab: true
+              newTab: false
 
 related:
     includeNewer: true
