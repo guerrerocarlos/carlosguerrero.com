@@ -5,7 +5,7 @@ paginate: 5
 title: Carlos Guerrero
 
 # Change it to your Disqus shortname before using
-disqusShortname: carlosguerrero-com
+# disqusShortname: carlosguerrero-com
 
 # GA Tracking ID
 googleAnalytics: G-LK00BQTYDH
