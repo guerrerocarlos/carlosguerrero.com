@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/guerrerocarlos
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.carlosguerrero.com
+  * I am guerrerocarlos (https://keybase.io/guerrerocarlos) on keybase.
+  * I have a public key ASAL3L6O3MvbDpTUYEbtATEIxGwoMeNVejkjuiP0I3za-go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200bdcbe8edccbdb0e94d46046ed013108c46c2831e3557a3923ba23f4237cdafa0a",
+      "host": "keybase.io",
+      "kid": "01200bdcbe8edccbdb0e94d46046ed013108c46c2831e3557a3923ba23f4237cdafa0a",
+      "uid": "fd9717ddba37d0d6669d0851dfa03700",
+      "username": "guerrerocarlos"
+    },
+    "merkle_root": {
+      "ctime": 1552905502,
+      "hash": "e5f2990c5a6063cc5f293736e6ba03b5c02e8944947ecdfb463db4be224c547528881804102659a3923da28140e0c43f46f63ac02f09472a844d9a36443df354",
+      "hash_meta": "ec3755a9138c1c30dceb3812faa9203ed7800cc509f27e1285e5ec948b1e8ebd",
+      "seqno": 4971448
+    },
+    "service": {
+      "entropy": "HWnCIoQIlaeKTn8qXHavNCMR",
+      "hostname": "www.carlosguerrero.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1552905526,
+  "expire_in": 504576000,
+  "prev": "376092c6a9ffebaaf95b144db30860252ae556d093efb267063f4f643ac01531",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgC9y+jtzL2w6U1GBG7QExCMRsKDHjVXo5I7oj9CN82voKp3BheWxvYWTESpcCJMQgN2CSxqn/66r5WxRNswhgJSrlVtCT77JnBj9PZDrAFTHEIPGQ46G84pldxrmMBhFRx+hOYdodOWYvvHoLuhzePgYyAgHCo3NpZ8RAWn3Ppr2aNZYUhlpzlmuPbZiuS8ipzYKgUEhofSTp2nmnTDJlsF7TsVSrWzN6RAGuvHkK9Uwf2R7WA+OWaGLlAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGOhshJcgaOEGttQ97Zj0rX3vRmDnRgdQYDspNCtQcCGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/guerrerocarlos
+
+==================================================================
