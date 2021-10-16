@@ -2,7 +2,7 @@ baseurl: https://carlosguerrero.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Carlos Guerrero
+title: guerrerocarlos
 
 # Change it to your Disqus shortname before using
 # disqusShortname: carlosguerrero-com
